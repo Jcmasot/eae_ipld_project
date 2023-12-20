@@ -1,4 +1,5 @@
 # The library you have to use
+!pip3 install numpy
 import numpy as np
 
 # Some extra libraries to build the webapp and deal with images and files
