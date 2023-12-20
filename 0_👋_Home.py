@@ -20,7 +20,7 @@ with st.sidebar:
 
 
 # ----- Top title -----
-st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is ????</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
+st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is JORDI</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
 
 
 # ----- Profile image file -----
@@ -39,7 +39,7 @@ st.write(f"""
 
 
 # ----- Personal title or short description -----
-current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+current_role = "Soc un intent de data analyst"   # TODO: Change this
 
 st.write(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""", unsafe_allow_html=True)
 
@@ -51,19 +51,17 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a <Current Role and/or Studies> 
+- 🧑‍💻 I am a Junior Data analyst 
 
-- 🛩️ prev: <Previous Experience, Background or Studies>
+- 🛩️ prev: Economics grade, specialized in Econometrics Macro and Micro data analytics
 
-- ❤️ <Your Passion and/or Interests>
+- ❤️ The studies of data
 
-- 🤖 <Your Personal Projects>
+- 🏂 Run half marathons, climb some mountains and spend time lifting some weights in the gym
 
-- 🏂 <Your Hobbies>
+- 📫 How to reach me: U can't
 
-- 📫 How to reach me: <Your Email>
-
-- 🏠 Barcelona
+- 🏠 Barcelona, Tarragona and Lleida
 """)
 
 # Feel free to add other points like your Linkedin, Github, Social Media, etc.
