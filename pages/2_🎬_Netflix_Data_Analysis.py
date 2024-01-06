@@ -56,9 +56,9 @@ num_missing_directors = movies_df['director'].isnull().sum()
 movies_df['country'].fillna('Unknown',inplace=True)
 unique_entries = movies_df["country"].unique().tolist()
 unique_entries_str = ', '.join(unique_entries)
-list_n_countries: unique_entries_str.split(', ')
+list_countries = unique_entries_str.split(', ')
 unique_list = []
-for country in list_n_countries:
+for country in list_countries:
     if country not in unique_list and country != '' and ',' not in country:
         unique_list.append(country)
 
